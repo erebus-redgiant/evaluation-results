@@ -29,7 +29,7 @@ This repository contains data of the evaluations in our paper, including the eva
 
 ## Evaluation of Vulnerability Detection Tools
 
-Analysis results of each tool on each contract of [dataset $\mathbb{D}^A$](https://github.com/erebus-icse2023/benchmark) can be downloaded from [Google Drive](https://drive.google.com/file/d/1QhvUmNzB9b2TRwkdHt6A_RBK3ZlvYGMG/view?usp=sharing) (since this is super huge.)
+Analysis results of each tool on each contract of [dataset] $\mathbb{D}^A$(https://github.com/erebus-icse2023/benchmark) can be downloaded from [Google Drive](https://drive.google.com/file/d/1QhvUmNzB9b2TRwkdHt6A_RBK3ZlvYGMG/view?usp=sharing) (since this is super huge.)
 The decompressed folder has the same structure as the benchmark, as described [here](https://github.com/erebus-icse2023/benchmark).
 The analysis result of each tool can be found in the `analysis` folder of each contract.
 Please refer to the documentation of each tool to learn how to interpret their detection results.
