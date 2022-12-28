@@ -1,23 +1,23 @@
 # Evaluation Results
 
-This repository contains data of the evaluations in our paper, including the evaluation of the attack search algorithm, the evaluation of the vulnerability localization approach, and the evaluation of state-of-the-art vulnerability detection tools.
+This repository contains data of the evaluations in our paper, including the evaluation of the attack mining algorithm, the evaluation of the vulnerability localization approach, and the evaluation of state-of-the-art vulnerability detection tools.
 
-## Evaluation of Attack Search Algorithm
+## Evaluation of Attack Mining Algorithm
 
 ### RQ1-1:
 
-- [Manual Check.xlsx](./Manual%20Check.xlsx) contains the manual check results among three authors to check whether the attacks found by our search algorithm are true front-running attacks or not. The manual check is conducted on a sample of attacks $\mathbb{D}^S$.
+- [Manual Check.xlsx](./Manual%20Check.xlsx) contains the manual check results among three authors to check whether the attacks found by our mining algorithm are true front-running attacks or not. The manual check is conducted on a sample of attacks $\mathbb{D}^S$.
 
 ### RQ1-2:
 
-- [displacement.evaluate.output.txt](./displacement.evaluate.output.txt), [insertion.evaluate.output.txt](./insertion.evaluate.output.txt) give the results that our search algorithm tries to identify displacement attacks and insertion attacks in the baseline dataset.
+- [displacement.evaluate.output.txt](./displacement.evaluate.output.txt), [insertion.evaluate.output.txt](./insertion.evaluate.output.txt) give the results that our mining algorithm tries to identify displacement attacks and insertion attacks in the baseline dataset.
 - The baseline dataset can be found at [Frontrunner-Jones](https://github.com/christoftorres/Frontrunner-Jones).
 - There are three columns in the output file. The first column is the attack id in the baseline dataset. The second column marks whether our attack model can identify each attack. The third column marks whether our vulnerability localization approach can localize vulnerable code from the attack.
 - [baseline_attack_missing_check.txt](./baseline_attack_missing_check.txt) gives our manual investigation result on the reasons why some attacks are missed by our attack model (sampling with 95% confidence level and 5% confidence interval).
 
 ### RQ1-3:
 
-- [rq1-3_search.json](./rq1-3_search.json) shows the attack that our search algorithm finds in the experiments for RQ1-3.
+- [rq1-3_search.json](./rq1-3_search.json) shows the attack that our mining algorithm finds in the experiments for RQ1-3.
 - The baseline dataset can be found at [Frontrunner-Jones](https://github.com/christoftorres/Frontrunner-Jones).
 
 ## Evaluation of Vulnerability Localization
