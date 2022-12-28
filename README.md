@@ -24,17 +24,12 @@ This repository contains data of the evaluations in our paper, including the eva
 
 - [Manual Check.xlsx](./Manual%20Check.xlsx) also contains the manual check results among three authors to check whether the underlying vulnerable contract logic is covered by extracted influence trace or not. The manual check is conducted on a sample of attacks $\mathbb{D}^S$.
 - [reduction.dat](./reduction.dat) contains the total number of EVM instructions that are marked vulnerable by the naive approach (baseline) and by our approach in each attack of $\mathbb{D}^S$. Used in Fig.3.
-- [topNContracts.codehash.csv](./topNContracts.codehash.csv) contains the code hashes of top-1200 contracts used to construct dataset $\mathbb{D}^P$. One can find the corresponding contract from its code hash from dataset $\mathbb{D}^A$, [there](https://github.com/erebus-icse2023/benchmark).
+- [topNContracts.codehash.csv](./topNContracts.codehash.csv) contains the code hashes of top-1200 contracts used to construct dataset $\mathbb{D}^P$. One can find the corresponding contract from its code hash from dataset $\mathbb{D}^A$, [there](https://github.com/erebus-redgiant/benchmark).
 - [saturation.dat](./saturation.dat) contains the number of functions labeled as vulnerable by our approach when increasing the sampling percentage of dataset $\mathbb{D}^P$.
 
 ## Evaluation of Vulnerability Detection Tools
 
-Analysis results of each tool on each contract of [dataset] $\mathbb{D}^A$(https://github.com/erebus-icse2023/benchmark) can be downloaded from [Google Drive](https://drive.google.com/file/d/1QhvUmNzB9b2TRwkdHt6A_RBK3ZlvYGMG/view?usp=sharing) (since this is super huge.)
-The decompressed folder has the same structure as the benchmark, as described [here](https://github.com/erebus-icse2023/benchmark).
+Analysis results of each tool on each contract of [dataset] $\mathbb{D}^A$(https://github.com/erebus-redgiant/benchmark) can be downloaded from [Google Drive](https://drive.google.com/file/d/1QhvUmNzB9b2TRwkdHt6A_RBK3ZlvYGMG/view?usp=sharing) (since this is super huge.)
+The decompressed folder has the same structure as the benchmark, as described [here](https://github.com/erebus-redgiant/benchmark).
 The analysis result of each tool can be found in the `analysis` folder of each contract.
 Please refer to the documentation of each tool to learn how to interpret their detection results.
-
-# Disclaimer
-
-This repository contains the evaluation data in the #53 submission of [ICSE 2023](https://conf.researchr.org/track/icse-2023/icse-2023-technical-track).
-It is meant to meet the [open science policy](https://conf.researchr.org/track/icse-2023/icse-2023-open-science-policies) of ICSE 2023.
